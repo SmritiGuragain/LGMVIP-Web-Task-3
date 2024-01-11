@@ -203,7 +203,7 @@ function FormExample() {
                                             <td>
                                                 <strong>Name:</strong> {submittedData.name} <br />
                                                 <strong>Email:</strong> {submittedData.email} <br />
-                                                <strong>Website:</strong> {submittedData.website} <br />
+                                                <strong>Website:</strong><a href={submittedData.website}>{submittedData.website}</a> <br />
                                                 <strong>Gender:</strong> {submittedData.gender} <br />
                                                 <strong>Skills:</strong> {submittedData.skills.join(', ')} <br />
                                             </td>
